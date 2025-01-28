@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMW Weboldal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1e1e1e;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .main-content {
+            padding: 20px;
+            text-align: center;
+        }
+        .main-content h2 {
+            color: #1e1e1e;
+        }
+        .car-models {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .car-models div {
+            background-color: #fff;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .car-models img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>BMW - A Tökéletes Autó</h1>
+</header>
+
+<nav>
+    <a href="#">Főoldal</a>
+    <a href="#">Modellek</a>
+    <a href="#">Szerviz</a>
+    <a href="#">Kapcsolat</a>
+</nav>
+
+<div class="main-content">
+    <h2>A BMW legújabb modelljei</h2>
+    <p>Ismerd meg a legújabb BMW autókat, amelyek a legmodernebb technológiai fejlesztéseket kínálják a vezetési élmény fokozására.</p>
+
+    <div class="car-models">
+        <div>
+            <img src="https://www.bmw.com/etc/designs/bmwcom/clientlibs/clientlib-site/resources/img/overview/overview_bmw_serie5_m.jpg" alt="BMW 5 Series">
+            <h3>BMW 5 Series</h3>
+            <p>A prémium középkategóriás BMW, amely stílust és kényelmet kínál.</p>
+        </div>
+        <div>
+            <img src="https://www.bmw.com/etc/designs/bmwcom/clientlibs/clientlib-site/resources/img/overview/overview_bmw_serie3_m.jpg" alt="BMW 3 Series">
+            <h3>BMW 3 Series</h3>
+            <p>Sportos, dinamikus és elegáns – a 3-as sorozat mindig is az autósportot hozta el a közútra.</p>
+        </div>
+        <div>
+            <img src="https://www.bmw.com/etc/designs/bmwcom/clientlibs/clientlib-site/resources/img/overview/overview_bmw_x5_m.jpg" alt="BMW X5">
+            <h3>BMW X5</h3>
+            <p>A BMW legújabb SUV-ja, amely magabiztos vezetési élményt és luxust biztosít.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 BMW Magyarország. Minden jog fenntartva.</p>
+</footer>
+
+</body>
+</html>
